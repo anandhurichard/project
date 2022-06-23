@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>about.....</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+  <style type="text/css">
+  	iframe{
+  		width: 100%;
+  	}
+  	h1{
+  		text-align: center;
+  		font-family: sans-serif;
+  		font-size: 35px;
+  		color: olive;
+  	}
+  	.navbar{
+			background-color: orange;
+
+		}
+			.nav-item:hover{
+			background-color: lightgoldenrodyellow;
+
+		}
+		#ab{
+		
+		display: none;
+		background: transparent;
+		text-transform: uppercase;
+		background-image: url("text.png");
+		background-size: inherit;
+		opacity: 0.5;
+	}
+	#ab a{
+		margin-top: 0;
+
+		text-align: center;
+		color: greenyellow;
+		margin-left: 100px;
+		display:block;
+		font-size: 25px;
+		background: transparent;
+	}
+	#ab a:hover{
+		color: darkviolet;
+		text-decoration: none;
+		opacity: 1;
+	}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $("#menu").click(function(){
+		
+    $("#ab").slideToggle();
+  });
+});
+	</script>
+  </head>
+
+<body>
+	<nav class="navbar navbar-expand-sm fixed-top ">
+	<a class="navbar-brand" href="#">
+    <img src="cake.jpg" class="rounded-circle" alt="Logo" style="width:80px;">
+  </a>
+  <ul class="navbar-nav">
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">OUR COLLECTIONS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="menu">MENU</a>
+     
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">CONTACT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">ABOUT US</a>
+    </li>
+  </ul>
+  
+</nav><br><br><br><br>
+	<h1>CONTACT US</h1>
+	<div class=row>
+		<div class="col-sm-6">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8545333794723!2d76.30865501450367!3d10.028860492831372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dae1ccd51b3%3A0xaf667f52875076!2sBest%20Bakers!5e0!3m2!1sen!2sin!4v1654678973003!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="col-sm-6">
+<form class="mt-4">
+	<table>	
+	<tr>
+	<th>Name:</th>
+	<td><input type="text" name="nme" placeholder="enter name"></td>
+    </tr>
+    <tr>
+    <th>
+	Email:
+   </th>
+   <td><input type="email" name="emu" placeholder="enter email"></td>
+</tr>
+<tr>
+	<th>
+	Contact number: 
+</th>
+<td><input type="text" name="num" maxlength="10"></td>
+</tr>
+<tr>
+	<th>
+	Message: 
+</th>
+<td><textarea placeholder="enter message"></textarea></td>
+</tr>
+<tr>
+	<td>
+<button type="button" class="btn btn-success">Submit</button>
+</td>
+</tr>
+	</table>
+
+</form>
+</div>
+</div>
+	</body>
+
+</html>
